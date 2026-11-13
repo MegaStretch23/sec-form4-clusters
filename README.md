@@ -14,10 +14,10 @@ git clone https://github.com/MegaStretch23/sec-form4-clusters.git
 cd sec-form4-clusters
 
 # EDGAR requires a User-Agent with a contact: "Your Name you@example.com"
-python -m sec_form4_clusters --user-agent "Your Name you@example.com" --lookback-days 1 --max-filings 25
+python -m sec_form4_clusters --user-agent "Your Name you@example.com" --lookback-days 3 --max-filings 25
 ```
 
-That prints JSON to stdout (a 25-filing demo almost never contains a cluster, so expect `"clusters_found": 0`). A full week:
+That prints JSON to stdout (EDGAR posts a day's index after the day ends, so today is empty; a 25-filing demo almost never contains a cluster, so expect `"clusters_found": 0`). A full week:
 
 ```bash
 python -m sec_form4_clusters --user-agent "Your Name you@example.com" --lookback-days 7 --out clusters.json
