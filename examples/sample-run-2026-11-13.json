@@ -1,0 +1,231 @@
+{
+  "tool": "sec-form4-clusters",
+  "version": "0.1.0",
+  "generated_at": "2026-11-13T07:47:06+00:00",
+  "scan_date": "2026-11-13",
+  "params": {
+    "lookback_days": 7,
+    "window_days": 14,
+    "min_insiders": 3,
+    "min_aggregate_usd": 500000,
+    "max_filings": 0
+  },
+  "filings_in_index": 1859,
+  "filings_by_result": {
+    "parsed": 1859
+  },
+  "clusters_found": 4,
+  "clusters": [
+    {
+      "ticker": "FUN",
+      "issuer_name": "Six Flags Entertainment Corporation/NEW",
+      "insider_count": 3,
+      "tx_count": 5,
+      "total_dollar": 15066320.0,
+      "first_buy": "2026-11-06",
+      "last_buy": "2026-11-10",
+      "plan_pct": 0.0,
+      "insiders": [
+        {
+          "name": "JAFFER REHAN",
+          "role": "Director",
+          "shares": 1450000.0,
+          "dollar": 14929000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1364501/000199900126000113/"
+          ]
+        },
+        {
+          "name": "HADDRILL RICHARD M",
+          "role": "Executive Chair / Director",
+          "shares": 9000.0,
+          "dollar": 90720.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1201647/000199900126000111/"
+          ]
+        },
+        {
+          "name": "Bennett Christopher Lawrence",
+          "role": "Chief Legal Officer",
+          "shares": 5000.0,
+          "dollar": 46600.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1361509/000199900126000109/"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "OBIO",
+      "issuer_name": "Orchestra BioMed Holdings, Inc.",
+      "insider_count": 5,
+      "tx_count": 5,
+      "total_dollar": 6230000.0,
+      "first_buy": "2026-11-09",
+      "last_buy": "2026-11-09",
+      "plan_pct": 0.0,
+      "insiders": [
+        {
+          "name": "RTW INVESTMENTS, LP",
+          "role": "10%-owner",
+          "shares": 1200000.0,
+          "dollar": 6000000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1814114/000123191926001568/"
+          ]
+        },
+        {
+          "name": "Fain Eric S",
+          "role": "Director",
+          "shares": 20000.0,
+          "dollar": 100000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1402222/000110465926124539/"
+          ]
+        },
+        {
+          "name": "Pacitti David",
+          "role": "Director",
+          "shares": 20000.0,
+          "dollar": 100000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1814114/000110465926124537/"
+          ]
+        },
+        {
+          "name": "Hochman David P",
+          "role": "See Remarks / Director",
+          "shares": 5000.0,
+          "dollar": 25000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1292834/000110465926124536/"
+          ]
+        },
+        {
+          "name": "Taylor Andrew Lawrence",
+          "role": "Chief Financial Officer",
+          "shares": 1000.0,
+          "dollar": 5000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1814114/000110465926124530/"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "MP",
+      "issuer_name": "MP Materials Corp. / DE",
+      "insider_count": 3,
+      "tx_count": 6,
+      "total_dollar": 3353605.68,
+      "first_buy": "2026-11-10",
+      "last_buy": "2026-11-11",
+      "plan_pct": 0.0,
+      "insiders": [
+        {
+          "name": "WEISENBURGER RANDALL J",
+          "role": "Director",
+          "shares": 55000.0,
+          "dollar": 1980000.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1801368/000103160926000009/"
+          ]
+        },
+        {
+          "name": "Rosenthal Michael Stuart",
+          "role": "Chief Operating Officer",
+          "shares": 32000.0,
+          "dollar": 1175090.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1801368/000183205026000010/"
+          ]
+        },
+        {
+          "name": "Corbett Ryan",
+          "role": "Chief Financial Officer",
+          "shares": 5476.0,
+          "dollar": 198515.68,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1831686/000183168626000010/"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "MTDR",
+      "issuer_name": "Matador Resources Co",
+      "insider_count": 5,
+      "tx_count": 8,
+      "total_dollar": 541690.15,
+      "first_buy": "2026-11-05",
+      "last_buy": "2026-11-10",
+      "plan_pct": 0.0,
+      "insiders": [
+        {
+          "name": "Foran Joseph Wm",
+          "role": "Chairman and CEO / Director",
+          "shares": 7500.0,
+          "dollar": 380025.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1540655/000154065526000027/",
+            "https://www.sec.gov/Archives/edgar/data/1540655/000154065526000029/"
+          ]
+        },
+        {
+          "name": "Appel Shelley F",
+          "role": "Director",
+          "shares": 1350.0,
+          "dollar": 67521.25,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1981193/000198119326000006/"
+          ]
+        },
+        {
+          "name": "Stetson Glenn W",
+          "role": "EVP and COO",
+          "shares": 1000.0,
+          "dollar": 50800.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1520006/000202028926000008/"
+          ]
+        },
+        {
+          "name": "Harvey Paul W",
+          "role": "Director",
+          "shares": 500.0,
+          "dollar": 26360.0,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/2054635/000205463526000006/"
+          ]
+        },
+        {
+          "name": "Ehrman Monika U",
+          "role": "Director",
+          "shares": 339.0,
+          "dollar": 16983.9,
+          "any_10b5_1": false,
+          "filings": [
+            "https://www.sec.gov/Archives/edgar/data/1786877/000178687726000007/"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": "SEC EDGAR daily index + Form 4 XML (public data)",
+  "hosted_version": "https://apify.com/johnveds15/sec-form4-insider-clusters"
+}

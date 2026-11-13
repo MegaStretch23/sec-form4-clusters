@@ -1,0 +1,18 @@
+[project]
+name = "sec-form4-clusters"
+version = "0.1.0"
+description = "Find SEC Form 4 insider-buying clusters from free EDGAR data. Stdlib only."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["sec", "form-4", "insider-trading", "edgar"]
+
+[project.scripts]
+sec-form4-clusters = "sec_form4_clusters.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sec_form4_clusters"]
